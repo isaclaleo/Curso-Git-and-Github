@@ -45,3 +45,11 @@ Cómo funcionan las ramas en GIT
 * git checkout -b rama : genera una rama y nos mueve a ella automaticamente 
 * git reset id-commit: nos lleva a cualquier commit sin importar la rama 
 * git checkout rama o id commit:  nos lleva a cualquier commit sin borrar los commit posteriores al tag seleccionado
+
+CLASE 16
+Fusión de ramas con Git merge
+
+git merge nos permite crear un nuevo commit con la combinacion de dos ramas(branches) 
+
+LA RAMA DONDE QUEREMOS HACER EL MERGE Y TRAER LOS CAMBIOS DE LAS RAMA CREADA SE DEBE DE HACER DESDE LA RAMA PRICIPAL PARA LLAMAR A LAS CREADA
+
