@@ -1,8 +1,5 @@
-Esto es un título
+Esta es la historia de Isac 
 
-Esto es un título centrado
+Isac tiene 28 aÃ±os y nacio en CDMX
 
-Aquí va un párrafo con negrita, cursiva, subrayado y colores.
-
-
-Y esto de arriba es la foto de unas Suricatas.
+Hoy hablaremos del curso de induccion de Git y Github  
