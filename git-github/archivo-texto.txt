@@ -28,6 +28,10 @@ CLASE 4
 
 Instalando Git en OSX
 
+CLASE 5 
+
+Instalando Git en Linux
+
 
 Se realizao la history y los comandos de git para realizar la siguiente clase desde la 8 en andelante hasta las 12- en adelante esta con la explicacion de carpetas.
 
