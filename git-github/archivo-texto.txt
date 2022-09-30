@@ -53,3 +53,5 @@ git merge nos permite crear un nuevo commit con la combinacion de dos ramas(bran
 
 LA RAMA DONDE QUEREMOS HACER EL MERGE Y TRAER LOS CAMBIOS DE LAS RAMA CREADA SE DEBE DE HACER DESDE LA RAMA PRICIPAL PARA LLAMAR A LAS CREADA
 
+Se realiza el merge de la rama clase 15 y clase 16
+
