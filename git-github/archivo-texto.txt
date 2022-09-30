@@ -108,4 +108,13 @@ Cambios en GitHub: de master a main
 Se da una breve explicacion de los cambios de las rama master y main  desde el 1 de octubre del 2020 cambio de la rama pricipal ya no es master si como main que fue derivado de las protestas de #BlackLivesMAtter  la rama master va hacer main siempre.
 
 CLASE 19 
-Uso de Github
+Uso de Github 
+
+Se realizo la alta de cuenta del repositorio para el curso del mismo se dio de alta los archivos necesarios de todos las clases si requiere  se vieron varios comandos para hacerlo con github para hacer un reporsitrio son los siguientes: 
+
+* git remote add origin url : el origin del repo de github 
+* git remote / git remote -v : se verifica la url se haya guarda adecudamente 
+
+Se cambio de la rama master a rama main  
+
+se fue a la rama master se ejecuta git branch -M main
