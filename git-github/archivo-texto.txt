@@ -33,3 +33,15 @@ Comandos para trabajo remoto con git:
 *git fetch: lo usamos para traer actualizaciones del servidor remoto y guardarlas en nuestro repositorio local 
 *git merge: lo necesitamos para combinar los ultimos cambios del servidor remoto y nuestro directorio de trabajo 
 *git pull: basicamente es la combinacion de fetch y merge
+
+CLASE 15 
+Introducción a las ramas o branches de Git
+
+las ramas o branches son las formas de hacer cambios en nuestro proyecto sin afectar el flujo de trabajo de la rama principal 
+
+Cómo funcionan las ramas en GIT
+* git branch nombre de la rama: genera una nueva rama
+* git checkout nombre de la rama: con este cambiamos de rama 
+* git checkout -b rama : genera una rama y nos mueve a ella automaticamente 
+* git reset id-commit: nos lleva a cualquier commit sin importar la rama 
+* git checkout rama o id commit:  nos lleva a cualquier commit sin borrar los commit posteriores al tag seleccionado
