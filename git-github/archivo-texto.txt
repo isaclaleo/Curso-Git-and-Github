@@ -106,3 +106,6 @@ CLASE 18
 Cambios en GitHub: de master a main
 
 Se da una breve explicacion de los cambios de las rama master y main  desde el 1 de octubre del 2020 cambio de la rama pricipal ya no es master si como main que fue derivado de las protestas de #BlackLivesMAtter  la rama master va hacer main siempre.
+
+CLASE 19 
+Uso de Github
