@@ -100,4 +100,5 @@ Para saltar entre ramas, se usa el comando git checkout <branch>
 El merge ocurre en la rama en la que se está posicionado. Por lo tanto, la rama a fusionar se transforma en la principal.
 Los merges también son commits.
 Los merges pueden generar conflictos, esto aborta la acción y pide que soluciones el problema manualmente, aceptando o rechazando los cambios que vienen.
+image.png 
 
