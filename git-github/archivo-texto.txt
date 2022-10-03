@@ -150,3 +150,15 @@ Terminar de config. nuestra sistema en windows y linux: encender: eval $(shh-age
 Añadir tu llave SSH a el servidor 
 
 ssh-add ruta-donde-guardaste-tu-llave-privada
+
+CLASE 22
+
+Conexión a GitHub con SSH: 
+"La creación de las SSH es necesario solo una vez por cada computadora. Aquí conocerás cómo conectar a GitHub usando SSH." 
+
+se actualiza la URL que guardamos en nuestro repositorio remoto envez de guaradar con URL con HTTPS vamos a usar la URL con SSH 
+
+ssh
+git remote set-url origin url-ssh-del-repo-en-github
+Windows (Git Bash):
+clip < ~/.shh/id_rsa.pub
