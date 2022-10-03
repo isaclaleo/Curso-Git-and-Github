@@ -150,5 +150,3 @@ Terminar de config. nuestra sistema en windows y linux: encender: eval $(shh-age
 Añadir tu llave SSH a el servidor 
 
 ssh-add ruta-donde-guardaste-tu-llave-privada
-
-
