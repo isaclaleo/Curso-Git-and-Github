@@ -129,5 +129,10 @@ Podemos compartir las llaves ya sea privada o publca
 Podemos mandar una llave publica para con un mensaje privado.
 
 El mensaje está cifrado y puede ser enviado a la otra persona sin problemas en caso de que los archivos sean interceptados
- 
-La persona a la que enviamos el mensaje cifrado puede emplear su llave privada para descifrar el mensaje y ver los archivos 
+
+La persona a la que enviamos el mensaje cifrado puede emplear su llave privada para descifrar el mensaje y ver los archivos
+
+CLASE 21
+
+Configura tus llaves SSH en local
+
