@@ -136,4 +136,19 @@ CLASE 21
 
 Configura tus llaves SSH en local
 
-para general una llave SSH** 
+Para general una llave SSH** : debemos de proteger la llave privado con una contraseña. 
+COMANDO PARA GENERAR LLAVE 
+ssh-keygen -t rsa -b 4096 -C "isac.renovato@libreria.com.mx"
+
+creado tu llave debes la llave privada empieza asi en la carpeta que seleccionaste para generarla Id_rsa 
+la llave publica empieza aasi Id_rsa.pub
+
+Se realiza la llav tanto la publica como privada 
+
+Terminar de config. nuestra sistema en windows y linux: encender: eval $(shh-agent -s)
+
+Añadir tu llave SSH a el servidor 
+
+ssh-add ruta-donde-guardaste-tu-llave-privada
+
+
