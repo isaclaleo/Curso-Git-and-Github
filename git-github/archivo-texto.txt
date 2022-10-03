@@ -220,3 +220,22 @@ Flujo de trabajo profecional con Pull requests
 En un entorno profesional normalmente se bloquea la rama master, y para enviar código a dicha rama pasa por un code review y luego de su aprobación se unen códigos con los llamados merge request.
 
 Los PR (pull requests) son la base de la colaboración a proyectos Open Source, si tienen pensando colaborar en alguno es muy importante entender esto y ver cómo se hace en las próximas clases. Por lo general es forkear el proyecto, implementar el cambio en una nueva rama, hacer el PR y esperar que los administradores del proyecto hagan el merge o pidan algún cambio en el código o commits que hiciste.
+
+CLASE 28 Utilizando Pull request en Github
+
+Cómo se realiza un pull request
+
+* Se trabaja en una rama paralela los cambios que se desean git checkout -b <rama>.
+
+* Se hace un commit a la rama git commit -am '<Comentario>'.
+
+* Se suben al remoto los cambios git push origin <rama>.
+
+* En GitHub se hace el pull request comparando la rama master con la rama del fix.
+Uno, o varios colaboradores revisan que el código sea correcto y dan feedback (en el chat del pull request).
+
+* El colaborador hace los cambios que desea en la rama y lo vuelve a subir al remoto (automáticamente jala la historia de los cambios que se hagan en la rama, en remoto).
+
+* Se aceptan los cambios en GitHub.
+
+* Se hace merge a master desde GitHub.
