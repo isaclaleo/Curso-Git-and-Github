@@ -162,3 +162,23 @@ ssh
 git remote set-url origin url-ssh-del-repo-en-github
 Windows (Git Bash):
 clip < ~/.shh/id_rsa.pub
+
+
+
+CLASE 24 
+Manejo de ramas en GitHub
+
+Comandos para manejo de ramas en GitHub
+
+Crear una rama:
+
+* git branch branchName
+
+Movernos a otra rama:
+* git checkout branchName
+
+Crear una rama en el repositorio local:
+* git branch nombre-de-la-rama o git checkout -b nombre-de-la-rama.
+
+Publicar una rama local al repositorio remoto:
+* git push origin nombre-de-la-rama.
