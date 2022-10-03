@@ -178,3 +178,4 @@ Comandos para trabajar con etiquetas:
 * Publicar un tag en el repositorio remoto: git push origin --tags.
 
 * Borrar un tag del repositorio remoto: git tag -d nombre-del-tag y git push origin :refs/tags/nombre-del-tag.
+
