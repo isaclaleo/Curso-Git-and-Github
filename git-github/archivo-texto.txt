@@ -239,3 +239,7 @@ Uno, o varios colaboradores revisan que el código sea correcto y dan feedback (
 * Se aceptan los cambios en GitHub.
 
 * Se hace merge a master desde GitHub.
+
+CLASE 29 
+
+Creando un Fork, contribuyendo a un repositorio
