@@ -118,4 +118,3 @@ Se realizo la alta de cuenta del repositorio para el curso del mismo se dio de a
 Se cambio de la rama master a rama main  
 
 se fue a la rama master se ejecuta git branch -M main
-
