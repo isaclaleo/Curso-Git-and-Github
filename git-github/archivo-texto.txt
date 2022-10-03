@@ -118,3 +118,16 @@ Se realizo la alta de cuenta del repositorio para el curso del mismo se dio de a
 Se cambio de la rama master a rama main  
 
 se fue a la rama master se ejecuta git branch -M main
+
+CLASE 20 
+Cómo funcionan las llaves públicas y privadas
+
+Se conoce como cifrado asimetrico, se puede hacer una llave publica y privada, estan vinculada.
+
+Podemos compartir las llaves ya sea privada o publca 
+
+Podemos mandar una llave publica para con un mensaje privado.
+
+El mensaje está cifrado y puede ser enviado a la otra persona sin problemas en caso de que los archivos sean interceptados
+ 
+La persona a la que enviamos el mensaje cifrado puede emplear su llave privada para descifrar el mensaje y ver los archivos 
