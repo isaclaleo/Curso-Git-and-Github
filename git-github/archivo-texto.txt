@@ -187,4 +187,15 @@ CLASE 25
 
 Configurar múltiples colaboradores en un repositorio de GitHub
 
+Cómo agregar colaboradores en Github
+Solo debemos entrar a la configuración de colaboradores de nuestro proyecto. Se encuentra en:
+Repositorio > Settings > Collaborators
 
+Realizo un ejemplo con los compañeros
+Hacer un commit con el nuevo mensaje que queremos, esto nos abre el editor de texto de la terminal:
+git commit —amend
+Corregimos el mensaje
+Traer el repositorio remoto
+git pull origin master
+Ejecutar el cambio
+git push --set-upstream origin master
