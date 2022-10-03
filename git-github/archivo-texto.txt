@@ -182,3 +182,9 @@ Crear una rama en el repositorio local:
 
 Publicar una rama local al repositorio remoto:
 * git push origin nombre-de-la-rama.
+
+CLASE 25
+
+Configurar múltiples colaboradores en un repositorio de GitHub
+
+
