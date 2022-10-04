@@ -410,3 +410,6 @@ git merge commit: funciona en un nuevo commit la historia de master con el momen
 CLASE 40 
 Reconstruir commits en Git con amend
 
+puede modificar el commit mas reciente en la misma rama 
+
+git commit --amend 
