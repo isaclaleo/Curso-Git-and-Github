@@ -276,4 +276,10 @@ Comandos
 
 * git pull ramaRemota main
 
+* se habla de varios servidores para hacer Deploy como:
+* Jenkisns
 
+CLASE 30 
+Hazme un pull request PR 
+
+Se realiza un fork para el PR del master de Platzi dejo el link para ver el fork y el PR  
