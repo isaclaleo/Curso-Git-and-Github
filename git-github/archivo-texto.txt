@@ -321,3 +321,9 @@ Pasos para subir un repositorio a GitHub Pages
 * Guardamos los cambios, hacemos un git pull y seguido de esto un git push a master.
 * Vamos a las opciones de settings de este repositorio y, en la parte de abajo, en la columna Github Pages, configuramos el source o fuente para que traiga la rama master
 * Guardamos los cambios.
+
+
+CLASE 35 el primer commit 1
+Git Rebase: reorganizacion el trabajo realizado
+
+Rebase es el proceso de mover o combinar una secuencia de confirmaciones en una nueva confirmación base. La reorganización es muy útil y se visualiza fácilmente en el contexto de un flujo de trabajo de ramas de funciones. El proceso general se puede visualizar de la siguiente manera.
