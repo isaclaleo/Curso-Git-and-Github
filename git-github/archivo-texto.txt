@@ -395,4 +395,14 @@ git cherry-pick es un comando que pemrite tomar uno o varios commits de otra ram
 
 CLASE 39 
 
+Git Reset & Reflog: usar en casos de emergencia 
 
+git  reflog: recoge todos los cambios en el repositorio local solo en el local 
+
+git reset: hara que  el ultimo commit sea el pasado por la ref
+
+* git reset --hard "commit" "perdera todos lo que se encuentraen staging y en el working directory y se movera el head al "commit"
+
+* git reset --soft commit :  te recuperatodos los cambios que tengas diferentes al commit los agrega al staging area y movera el head al commit 
+
+git merge commit: funciona en un nuevo commit la historia de master con el momento especifico en elq ue vive.
