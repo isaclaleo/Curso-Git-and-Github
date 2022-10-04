@@ -338,3 +338,8 @@ para hacer un rebase en la rama feature de la rama master correia los sig. coman
 * git rebase master 
 
 El comando rebase es **_una mala práctica, sobre todo en repositorios remotos. Se debe evitar su uso, pero para efectos de práctica te lo vamos a mostrar, para que hagas tus propios experimentos
+
+
+CLASE 36 
+
+Git Stash: Guardar cambios en memoria y recuperarlos después
