@@ -343,3 +343,16 @@ El comando rebase es **_una mala práctica, sobre todo en repositorios remotos. 
 CLASE 36 
 
 Git Stash: Guardar cambios en memoria y recuperarlos después
+
+git stash : guarda el trabajo actual del staging en un lista  diseñada para ser temporal llamada stash para que puede ser recuperado en el futuro
+
+git stash save "mensaje" podemos poner mensaje en el stash para asi diferecniar en el git stash list por si tenenmos varios elementos en el stash
+
+Obtener elelmentos del stash
+
+* git stash pop: recupera los ultimos cambios desde el stash a tu staging 
+* git stash pop stash@{num Stash}: para aplicar los cambios de un stash especifico y eliminarlo del stash
+* git stash apply stahs@{num_stash}: para retomar los cambios de una posicion especifica del stash 
+
+Listado de elementos en el stash
+* git stash list 
