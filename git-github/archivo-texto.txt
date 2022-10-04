@@ -413,3 +413,9 @@ Reconstruir commits en Git con amend
 puede modificar el commit mas reciente en la misma rama 
 
 git commit --amend 
+
+CLASE 41
+
+Buscar en archivos y commit de Git con Grep y log 
+
+
