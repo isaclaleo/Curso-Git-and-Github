@@ -407,6 +407,3 @@ git reset: hara que  el ultimo commit sea el pasado por la ref
 
 git merge commit: funciona en un nuevo commit la historia de master con el momento especifico en elq ue vive.
 
-
-CLASE 40
-
