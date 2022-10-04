@@ -323,9 +323,18 @@ Pasos para subir un repositorio a GitHub Pages
 * Guardamos los cambios.
 
 
-CLASE 35 el primer commit 1
+CLASE 35
+
 Git Rebase: reorganizacion el trabajo realizado
 
 Rebase es el proceso de mover o combinar una secuencia de confirmaciones en una nueva confirmación base. La reorganización es muy útil y se visualiza fácilmente en el contexto de un flujo de trabajo de ramas de funciones. El proceso general se puede visualizar de la siguiente manera.
 
 clase35.2
+Clase35.1
+
+para hacer un rebase en la rama feature de la rama master correia los sig. comandos 
+
+* git checkout feature
+* git rebase master 
+
+El comando rebase es **_una mala práctica, sobre todo en repositorios remotos. Se debe evitar su uso, pero para efectos de práctica te lo vamos a mostrar, para que hagas tus propios experimentos
