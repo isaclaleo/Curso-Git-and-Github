@@ -252,9 +252,7 @@ Como se hace un fork remoto desde la consola en Github
 Al hacer un Fork, github sabe se hizo  el fork del proyecto por lo que se permite hacer un pull request PR desde el mismo repositorio los sig. nos ayudaran 
 
 * git remote add <nombre del remoto> url-del-remoto
-* git remote upstream url
-
-
+* git remote upstream url 
 
 AL crearlo un remoto adicional podemos hacel un pull desde el nuevo origin en ese caso de tener permisos podremos hacer un fecth y push 
 
@@ -262,3 +260,20 @@ AL crearlo un remoto adicional podemos hacel un pull desde el nuevo origin en es
 * git pull upstream master
 
 Este pull nos traera los cambios del remoto por lo que se estara al dia en el proyecto.
+
+CLASSE 30 
+Haciendo deployment a un servidor 
+
+Pasos para haver el deployment en un servidor 
+
+Comandos
+
+* enretar carpeta del servidor 
+* Copiar link en clone entre HTTPS O SSH
+
+* git clone url: Deploy:
+> Realizar cambios y commit en github 
+
+* git pull ramaRemota main
+
+
