@@ -406,3 +406,7 @@ git reset: hara que  el ultimo commit sea el pasado por la ref
 * git reset --soft commit :  te recuperatodos los cambios que tengas diferentes al commit los agrega al staging area y movera el head al commit 
 
 git merge commit: funciona en un nuevo commit la historia de master con el momento especifico en elq ue vive.
+
+
+CLASE 40
+
