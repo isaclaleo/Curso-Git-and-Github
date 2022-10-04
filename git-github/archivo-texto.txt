@@ -296,3 +296,13 @@ Algunos ejemplos son los sig. de los archivos:
 .env 
 * jpg, png 
 Dependiendo del archivo que no deseas subir es el que se debe de colocar en el  .gitignore
+
+
+CLASE 33 
+
+README.md una excelente practica 
+Es un lugar donde se explica de que se trata el proyecto, como utilizar y demas informacion que se considere que se deba conocer cualquier persona que se vaya a trabajar de alguna forma del proyecto
+
+Lo sarchivos README.md son escritos en lenguje llamado markdown por eso la extencion .md mismo que es un estandar de escritura de diversos sitios
+
+Los README.md pueden estar en todas las carpetas pero el mas importante se encuentra la raiz, este documento ayuda a todos los colaboradores sepan la informacion relavante del proyecto modulo o seccion, Pueden crear cualquier archivo con la extencion .md pero solo README.md los mostrar por defecto en Github.
