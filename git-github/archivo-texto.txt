@@ -288,4 +288,7 @@ https://github.com/isaclaleo/hyperblog
 
 CLASE 32
 
+Ignorar archivos en el repositorio con .gitignore
+
+
 
