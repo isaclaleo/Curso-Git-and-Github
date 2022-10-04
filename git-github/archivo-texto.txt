@@ -388,10 +388,11 @@ Es un comando que nos permite tomar uno o varios commits de otra rama sin tener 
 
 git cherry-pick: trar los cambio a una rama especifica, se debe de hacer commit necesarios.
 
-
-CLASE 39 
-
 git cherry-pick: tarer commit viejos al head de un branch 
 
 git cherry-pick es un comando que pemrite tomar uno o varios commits de otra rama sin tener que hacer un merge completo, podemos aplicar commits relacionado con nuestra funcioanlidad en la rama master sin necesidad de hacer el merge.
+
+
+CLASE 39 
+
 
