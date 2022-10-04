@@ -290,5 +290,9 @@ CLASE 32
 
 Ignorar archivos en el repositorio con .gitignore
 
+Se crea el archivo de .gitignore para los archivos de cada uno que no se desea subuir al repo 
+Algunos ejemplos son los sig. de los archivos:
 
-
+.env 
+* jpg, png 
+Dependiendo del archivo que no deseas subir es el que se debe de colocar en el  .gitignore
