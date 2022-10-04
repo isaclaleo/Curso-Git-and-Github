@@ -243,3 +243,20 @@ Uno, o varios colaboradores revisan que el código sea correcto y dan feedback (
 CLASE 29 
 
 Creando un Fork, contribuyendo a un repositorio
+
+
+Se realiza un Fork con la cuenta (isactes) se clona el reporsitorio se hace una carpeta de la clase para los archivos, se hacen cambios para realziar las practicas correcpondientes.
+
+Como se hace un fork remoto desde la consola en Github 
+
+Al hacer un Fork, github sabe se hizo  el fork del proyecto por lo que se permite hacer un pull request PR desde el mismo repositorio los sig. nos ayudaran 
+
+* git remote add <nombre del remoto> url-del-remoto
+*git remote upstream url 
+
+AL crearlo un remoto adicional podemos hacel un pull desde el nuevo origin en ese caso de tener permisos podremos hacer un fecth y push 
+
+* git pull remoto ramas
+* git pull upstream master
+
+Este pull nos traera los cambios del remoto por lo que se estara al dia en el proyecto.
