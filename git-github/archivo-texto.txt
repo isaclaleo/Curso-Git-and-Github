@@ -306,3 +306,18 @@ Es un lugar donde se explica de que se trata el proyecto, como utilizar y demas 
 Lo sarchivos README.md son escritos en lenguje llamado markdown por eso la extencion .md mismo que es un estandar de escritura de diversos sitios
 
 Los README.md pueden estar en todas las carpetas pero el mas importante se encuentra la raiz, este documento ayuda a todos los colaboradores sepan la informacion relavante del proyecto modulo o seccion, Pueden crear cualquier archivo con la extencion .md pero solo README.md los mostrar por defecto en Github.
+
+CLASE 34 
+Tu sitio Web publico con GitHub
+
+Github tiene un servidor de hosting gratuito, puede tener un repositorio alojado en github y hacer que el contenido se muestre en la web en tiempo real.
+Se deja la pactrica que se realizo con Github Pages https://isaclaleo.github.io/isaclaloe/
+
+Pasos para subir un repositorio a GitHub Pages
+
+* Debemos tomar la llave SSH y hacer un git clone #SSHexample en mi computador local (Home).
+* Luego, accederemos a la carpeta nueva que aparece en nuestra máquina local.
+* Creamos un nuevo archivo que se llame index.html
+* Guardamos los cambios, hacemos un git pull y seguido de esto un git push a master.
+* Vamos a las opciones de settings de este repositorio y, en la parte de abajo, en la columna Github Pages, configuramos el source o fuente para que traiga la rama master
+* Guardamos los cambios.
