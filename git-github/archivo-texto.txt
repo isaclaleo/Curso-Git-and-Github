@@ -282,4 +282,6 @@ Comandos
 CLASE 30 
 Hazme un pull request PR 
 
-Se realiza un fork para el PR del master de Platzi dejo el link para ver el fork y el PR  
+Se realiza un fork para el PR del master de Platzi dejo el link para ver el fork y el PR 
+https://github.com/isaclaleo/hyperblog
+
