@@ -369,4 +369,13 @@ CLASE 37
 
 Git Clean: limpiar tu poryecot de archivos no deseados 
 
-git clean: borra los archivos no anexados del comando add
+es para los archivos que no tienes agregados en tu repo con add
+
+* git clean: borra los archivos no anexados del comando add
+
+Revisar que archivos no tienen seguimiento
+
+* git clean --dry-run
+
+Eliminar los archivos listados de no siguimiento
+* git clean -f
