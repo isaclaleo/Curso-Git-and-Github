@@ -364,3 +364,9 @@ Eliminar elementos del stash
 * git stash drop: para eliminar los cambios ma recientementes del stash 
 * git stash clear: eliminar todos los elementos del stash
 
+
+CLASE 37
+
+Git Clean: limpiar tu poryecot de archivos no deseados 
+
+git clean: borra los archivos no anexados del comando add
