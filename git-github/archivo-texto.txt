@@ -355,4 +355,12 @@ Obtener elelmentos del stash
 * git stash apply stahs@{num_stash}: para retomar los cambios de una posicion especifica del stash 
 
 Listado de elementos en el stash
-* git stash list 
+* git stash list: ver la lista de los cambios 
+* git stash branch nombre_rama: es para crear una rama y aplicar stash mas recientemente 
+* git stash branch nombre_rama stash: crear una rama y palicar un stash
+
+Eliminar elementos del stash
+
+* git stash drop: para eliminar los cambios ma recientementes del stash 
+* git stash clear: eliminar todos los elementos del stash
+
