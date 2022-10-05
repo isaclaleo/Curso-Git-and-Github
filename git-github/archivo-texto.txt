@@ -427,3 +427,13 @@ git grep -c palabra : se utiliza para ver cuantas veses estas utilizando la pala
 git log -S "palabra": se busca donde utilizaste la palabra dentro de un commit 
 
 
+CLASE42 
+
+Comandos y recursos colaborativos en Git y Github 
+
+git shortlog -sn : muestra cuantos commit han hecho cada miembro del equipo 
+
+git shortlog -sn --all : muestra cuantos commit han hecho cada miembre hasta los que se han eliminado
+
+git shortlog -sn --all --no-merge : muestra cuantos commimt ha hecho cada miembro quitando eliminados sin el merge
+
