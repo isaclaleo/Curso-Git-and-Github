@@ -5,3 +5,6 @@ Isac tiene 28 años y nacio en CDMX
 Hoy hablaremos del curso de induccion de Git y Github  
 
 Se  va empezar  desde la clase 8 ya ser subieron varios los archivos que se realizaron desde antes con las demas clases.
+
+
+Se realizao la history y los comandos de git para realizar la siguiente clase desde la 8 en andelante hasta las 12- en adelante esta con la explicacion de carpetas.
