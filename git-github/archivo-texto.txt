@@ -437,3 +437,12 @@ git shortlog -sn --all : muestra cuantos commit han hecho cada miembre hasta los
 
 git shortlog -sn --all --no-merge : muestra cuantos commimt ha hecho cada miembro quitando eliminados sin el merge
 
+git blame nombre_archivo : muestra quien hizo cada cosa linea por linea 
+
+git comando --help : muesta como funciona el comando 
+
+git blame nombre_archivo -linea-inicial,linea-final : muestra quien hizo cada cosa linea por linea desde que liena hay que ver 
+
+git branch -r : se muestran todas las ramas remotas 
+
+git branch -a : se muestran todas las ramas tanto locales y remotas 
