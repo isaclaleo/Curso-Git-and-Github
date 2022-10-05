@@ -1,14 +1,31 @@
 body {
+    color: #333;
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-h1 {
+#container {
+    width: 70%;
+    padding: 1em;
+    text-align: left;  
+    border: 1px solid #ddd;
+    margin: 0 auto;
+    margin-top: 2rem;
+    background-color: #3dd;
+}
+#cabecera {
+    color: #1E18DB;
+    font-size: 1.2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-weight: 300;
-    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    background: #8FD5DE;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.5);
+    
 }
-p{
-    font-size: 1rem;
+#cabecera span {
+    font-size: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 400;
 }
