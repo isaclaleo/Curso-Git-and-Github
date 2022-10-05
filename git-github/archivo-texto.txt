@@ -418,4 +418,12 @@ CLASE 41
 
 Buscar en archivos y commit de Git con Grep y log 
 
+git grep palabra : se utiliza para buscar la palabra en especifico y me muestra donde esta 
+
+git grep -n palabra : se utiliza para buscar la palabra y en que linea esta la palabra 
+
+git grep -c palabra : se utiliza para ver cuantas veses estas utilizando la palabra 
+
+git log -S "palabra": se busca donde utilizaste la palabra dentro de un commit 
+
 
