@@ -7,98 +7,89 @@ Hoy hablaremos del curso de induccion de Git y Github
 Se  va empezar  desde la clase 8 ya ser subieron varios los archivos que se realizaron desde antes con las demas clases.
 
 
+CLASE 1
+¿Por qué usar un sistema de control de versiones como Git?
+
+Un sistema de control de versiones como Git nos ayuda a guardar el historial de cambios y crecimiento de los archivos de nuestro proyecto.
+
+El comando para iniciar nuestro repositorio, o sea, indicarle a Git que queremos usar su sistema de control de versiones en nuestro proyecto, es git init.
+El comando para que nuestro repositorio sepa de la existencia de un archivo o sus últimos cambios es git add. Este comando no almacena las actualizaciones de forma definitiva, únicamente las guarda en algo que conocemos como “Staging Area” (área de montaje o ensayo).
+El comando para almacenar definitivamente todos los cambios que por ahora viven en el staging area es git commit. También podemos guardar un mensaje para recordar muy bien qué cambios hicimos en este commit con el argumento -m "Mensaje del commit".
+Por último, si queremos mandar nuestros commits a un servidor remoto, un lugar donde todos podamos conectar nuestros proyectos, usamos el comando git push.
+
+CLASE 2
+Git es un sistema de control de versiones distribuido, diseñado por Linus Torvalds. Está pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
+
+CLASE 3     
+
+Instalando Git y GitBash en Window
+
+CLASE 4 
+
+Instalando Git en OSX
+
+CLASE 5 
+
+Instalando Git en Linux
+
+CLASE 6 
+
+Editores de código, archivos binarios y de texto plano
+
+Git es un sistema de control de versiones distribuido, diseñado por Linus Torvalds. Está pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
+
+Conceptos importantes de Git
+Bug: Error en el código
+
+Repository: Donde se almacena todo el proyecto, el cual puede vivir tanto en local como en remoto. El repositorio guarda un historial de versiones y, más importante, de la relación de cada versión con la anterior para que pueda hacerse el árbol de versiones con las diferentes ramas.
+
+Fork: Si en algún momento queremos contribuir al proyecto de otra persona, o si queremos utilizar el proyecto de otro como el punto de partida del nuestro. Esto se conoce como “fork”.
+
+Clone: Una vez se decide hacer un fork , hasta ese momento sólo existe en GitHub. Para poder trabajar en el proyecto, toca clonar el repositorio elegido al computador personal.
+
+Branch: Es una bifurcación del proyecto que se está realizando para anexar una nueva funcionalidad o corregir un bug.
+
+Master: Rama donde se almacena la última versión estable del proyecto que se está realizando. La rama master es la que está en producción en cada momento (o casi) y debería estar libre de bugs. Así, si esta rama está en producción, sirve como referente para hacer nuevas funcionalidades y/o arreglar bugs de última hora.
+
+Commit: consiste en subir cosas a la versión local del repositorio. De esta manera se puede trabajar en la rama de forma local sin tener que modificar ninguna versión en remoto ni tener que tener la última versión remota, cosa muy útil en grandes desarrollos trabajados por varias personas.
+
+Push: Consiste en enviar todo lo que se ha confirmado con un commit al repositorio remoto. Aquí es donde se une nuestro trabajo con el de los demás.
+
+Checkout: Acción de descargarse una rama del repositorio GIT local (sí, GIT tiene su propio repositorio en local para poder ir haciendo commits) o remoto.
+
+Fetch: Actualiza el repositorio local bajando datos del repositorio remoto al repositorio local sin actualizarlo, es decir, se guarda una copia del repositorio remoto en el local.
+
+Merge: La acción de merge es la continuación natural del fetch. El merge permite unir la copia del repositorio remoto con tu repositorio local, mezclando los diferentes códigos.
+
+Pull: Consiste en la unión del fetch y del merge, esto es, recoge la información del repositorio remoto y luego mezcla el trabajo en local con esta.
+
+Diff: Se utiliza para mostrar los cambios entre dos versiones del mismo archivo.
+
+
+
+CLASE 7
+Comandos básicos en la terminal:
+
+pwd: Nos muestra la ruta de carpetas en la que te encuentras ahora mismo.
+mkdir: Nos permite crear carpetas (por ejemplo, mkdir Carpeta-Importante).
+touch: Nos permite crear archivos (por ejemplo, touch archivo.txt).
+rm: Nos permite borrar un archivo o carpeta (por ejemplo, rm archivo.txt). Mucho cuidado con este comando, puedes borrar todo tu disco duro.
+cat: Ver el contenido de un archivo (por ejemplo, cat nombre-archivo.txt).
+ls: Nos permite cambiar ver los archivos de la carpeta donde estamos ahora mismo. Podemos usar uno o más argumentos para ver más información sobre estos archivos (los argumentos pueden ser -- + el nombre del argumento o - + una sola letra o shortcut por cada argumento).
+- ls -a: Mostrar todos los archivos, incluso los ocultos.
+- ls -l: Ver todos los archivos como una lista.
+cd: Nos permite navegar entre carpetas.
+- cd /: Ir a la ruta principal:
+- cd o cd ~: Ir a la ruta de tu usuario
+- cd carpeta/subcarpeta: Navegar a una ruta dentro de la carpeta donde estamos ahora mismo.
+- cd .. (cd + dos puntos): Regresar una carpeta hacia atrás.
+- Si quieres referirte al directorio en el que te encuentras ahora mismo puedes usar cd . (cd + un punto).
+history: Ver los últimos comandos que ejecutamos y un número especial con el que podemos repetir su ejecución.
+
+! + número: Ejecutar algún comando con el número que nos muestra el comando history (por ejemplo, !72).
+clear: Para limpiar la terminal. También podemos usar los atajos de teclado Ctrl + L o Command + L.
+
+
+
 Se realizao la history y los comandos de git para realizar la siguiente clase desde la 8 en andelante hasta las 12- en adelante esta con la explicacion de carpetas.
-
-Clase 13 Git reset  vs git rm 
-
-git rm Es te comando no ayuda a eliminar archivos de git sin eliminar su historial del sustema de verusones. Esto quiere decir qie si necesitamos recuperar el archivo sol devemos de viajar en el tiempo y recuperar el ultimo commit antes de borrar el archivo 
-
-# git rm no se utiliza nada mas asi  debemos usar una de las flags para indeiarle a git como eliminar los archivos que ya no necesitamos en la ultima version del proyecto:
-* gir rm --cached: elimina los archivos de nuestro repositorio local y del area de staging, pero los mnatinien en el disco duro 
-*git rm --force: elimina los archivos  de git y del disco duro, git siempre guarda todo, por lo general podemos acceder al registro de existencia de los archivo, de modo que podemos recuperarlos si es necesario
-
-# git reset: este comando nos ayuda a volver en el tiempo, pero no como git checkout que nos deja ir, mirar, pasear, y volver, con git reset volvemos al pasado sin posibilidad de volver al futuro, este comando es MUY PELIGROSO y de debemos de emplearlo solo en caso e emergencia.
-Hay dos formas de utilizar git reset: con git reset --hard borrando toda la informacion que tengamos en el area de staging y perdiendo todo para siempre, git --soft mantiene alli los cambios del area de staging para que podamos aplicar nuestros ultimos cambios desde el commit anterior 
-
-* git reset --soft: borramos todo el historial y los registros de git pero guardando los cambios que tengamos en staging podemos aplicar las ultimas actualizaciones a un nuevo commit 
-* git reset --hard: borra todo TODO toda la informacion del commit y del area de staging se borra el historial 
-
-CLASE 14 
-Flujo de trabajo básico con un repositorio remoto
-
-Se explica comandos del flujo de trabajo para un repositorio como se muestra en el pdf que esta agregado en el repositorio los siguiente comandos que se mostraron son los siguientes:
-Comandos para trabajo remoto con git:
-*git clone url del servidor remoto: nos permite descargar los archivos de la ultima version de la rama pricipal y todo el historial de cambios en la carpeta 
-*git push: luego de hacer git add y git commit debemos de ejecturar para madar los cambios al servidor remoto
-*git fetch: lo usamos para traer actualizaciones del servidor remoto y guardarlas en nuestro repositorio local 
-*git merge: lo necesitamos para combinar los ultimos cambios del servidor remoto y nuestro directorio de trabajo 
-*git pull: basicamente es la combinacion de fetch y merge
-
-CLASE 15 
-Introducción a las ramas o branches de Git
-
-las ramas o branches son las formas de hacer cambios en nuestro proyecto sin afectar el flujo de trabajo de la rama principal 
-
-Cómo funcionan las ramas en GIT
-* git branch nombre de la rama: genera una nueva rama
-* git checkout nombre de la rama: con este cambiamos de rama 
-* git checkout -b rama : genera una rama y nos mueve a ella automaticamente 
-* git reset id-commit: nos lleva a cualquier commit sin importar la rama 
-* git checkout rama o id commit:  nos lleva a cualquier commit sin borrar los commit posteriores al tag seleccionado
-
-CLASE 16
-Fusión de ramas con Git merge
-
-git merge nos permite crear un nuevo commit con la combinacion de dos ramas(branches) 
-
-LA RAMA DONDE QUEREMOS HACER EL MERGE Y TRAER LOS CAMBIOS DE LAS RAMA CREADA SE DEBE DE HACER DESDE LA RAMA PRICIPAL PARA LLAMAR A LAS CREADA
-
-Se realiza el merge de la rama clase 15 y clase 16
-
-Comandos para corrección en GitHub 
-
-* git checkout “codigo de version” “nombre del archivo”: volver a la última versión de la que se ha hecho commit.
-* git reset: vuelve al pasado sin posibilidad de volver al futuro, se debe usar con especificaciones.
-* git reset --soft: vuelve a la versión en el repositorio, pero guarda los cambios en staging. Así,     podemos aplicar actualizaciones a un nuevo commit.
-* git reset --hard: todo vuelve a su versión anterior
-* git reset HEAD: saca los cambios de staging, pero no los borra. Es lo opuesto a git add.
-* git rm: elimina los archivos, pero no su historial. Si queremos recuperar algo, solo hay que regresar. se utiliza así:
-* git rm --cached elimina los archivos en staging pero los mantiene en el disco duro.
-* git rm --force elimina los archivos de git y del disco duro.
-Comandos para revisión y comparación en GitHub
-* git status: estado de archivos en el repositorio.
-* git log: historia entera del archivo.
-* git log --stat: cambios específicos en el archivo a partir de un commit.
-* git show: cambios históricos y específicos hechos en un archivo.
-* git diff “codigo de version 1” “codigo de version 2”: comparar cambios entre versiones.
-* git diff: comparar directorio con staging.
-
-Se repsa en el conetenido varios comandos para la revision en Github
-
-
-
-CLASE 17
-
-Resolución de conflictos al hacer un merge
-
-Se realiza un merge desde la rama clase16 con la clase 17 para hacer el conflito con los archivos de html y Css
-
-Cómo revertir un merge
-Si nos hemos equivocado y queremos cancelar el merge, debemos usar el siguiente comando:
-get merge 
-Conflictos en repositorios remotos
-Al trabajar con otras personas, es necesario utilizar un repositorio remoto.
-­
--Para copiar el repositorio remoto al directorio de trabajo local, se utiliza el comando git clone <url>, y para enviar cambios al repositorio remoto se utiliza git push.
--Para actualizar el repositorio local se hace uso del comando git fetch, luego se debe fusionar los datos traídos con los locales usando git merge.
-
-Para traer los datos y fusionarlos a la vez, en un solo comando, se usa git pull.
-­- Para crear commits rápidamente, fusionando git add y git commit -m "", usamos git commit -am "".
-­- Para generar nuevas ramas, hay que posicionarse sobre la rama que se desea copiar y utilizar el comando git branch <nombre>.
-Para saltar entre ramas, se usa el comando git checkout <branch>
-­- Una vez realizado los cambios en la rama, estas deben fusionarse con git merge.
-El merge ocurre en la rama en la que se está posicionado. Por lo tanto, la rama a fusionar se transforma en la principal.
-Los merges también son commits.
-Los merges pueden generar conflictos, esto aborta la acción y pide que soluciones el problema manualmente, aceptando o rechazando los cambios que vienen.
-image.png 
 
