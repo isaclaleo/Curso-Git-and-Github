@@ -93,3 +93,125 @@ clear: Para limpiar la terminal. También podemos usar los atajos de teclado Ctr
 
 Se realizao la history y los comandos de git para realizar la siguiente clase desde la 8 en andelante hasta las 12- en adelante esta con la explicacion de carpetas.
 
+Clase 13 Git reset  vs git rm 
+
+git rm Es te comando no ayuda a eliminar archivos de git sin eliminar su historial del sustema de verusones. Esto quiere decir qie si necesitamos recuperar el archivo sol devemos de viajar en el tiempo y recuperar el ultimo commit antes de borrar el archivo 
+
+# git rm no se utiliza nada mas asi  debemos usar una de las flags para indeiarle a git como eliminar los archivos que ya no necesitamos en la ultima version del proyecto:
+* gir rm --cached: elimina los archivos de nuestro repositorio local y del area de staging, pero los mnatinien en el disco duro 
+*git rm --force: elimina los archivos  de git y del disco duro, git siempre guarda todo, por lo general podemos acceder al registro de existencia de los archivo, de modo que podemos recuperarlos si es necesario
+
+# git reset: este comando nos ayuda a volver en el tiempo, pero no como git checkout que nos deja ir, mirar, pasear, y volver, con git reset volvemos al pasado sin posibilidad de volver al futuro, este comando es MUY PELIGROSO y de debemos de emplearlo solo en caso e emergencia.
+Hay dos formas de utilizar git reset: con git reset --hard borrando toda la informacion que tengamos en el area de staging y perdiendo todo para siempre, git --soft mantiene alli los cambios del area de staging para que podamos aplicar nuestros ultimos cambios desde el commit anterior 
+
+* git reset --soft: borramos todo el historial y los registros de git pero guardando los cambios que tengamos en staging podemos aplicar las ultimas actualizaciones a un nuevo commit 
+* git reset --hard: borra todo TODO toda la informacion del commit y del area de staging se borra el historial 
+
+CLASE 14 
+Flujo de trabajo básico con un repositorio remoto
+
+Se explica comandos del flujo de trabajo para un repositorio como se muestra en el pdf que esta agregado en el repositorio los siguiente comandos que se mostraron son los siguientes:
+Comandos para trabajo remoto con git:
+*git clone url del servidor remoto: nos permite descargar los archivos de la ultima version de la rama pricipal y todo el historial de cambios en la carpeta 
+*git push: luego de hacer git add y git commit debemos de ejecturar para madar los cambios al servidor remoto
+*git fetch: lo usamos para traer actualizaciones del servidor remoto y guardarlas en nuestro repositorio local 
+*git merge: lo necesitamos para combinar los ultimos cambios del servidor remoto y nuestro directorio de trabajo 
+*git pull: basicamente es la combinacion de fetch y merge
+
+CLASE 15 
+Introducción a las ramas o branches de Git
+
+las ramas o branches son las formas de hacer cambios en nuestro proyecto sin afectar el flujo de trabajo de la rama principal 
+
+Cómo funcionan las ramas en GIT
+* git branch nombre de la rama: genera una nueva rama
+* git checkout nombre de la rama: con este cambiamos de rama 
+* git checkout -b rama : genera una rama y nos mueve a ella automaticamente 
+* git reset id-commit: nos lleva a cualquier commit sin importar la rama 
+* git checkout rama o id commit:  nos lleva a cualquier commit sin borrar los commit posteriores al tag seleccionado
+
+CLASE 16
+Fusión de ramas con Git merge
+
+git merge nos permite crear un nuevo commit con la combinacion de dos ramas(branches) 
+
+LA RAMA DONDE QUEREMOS HACER EL MERGE Y TRAER LOS CAMBIOS DE LAS RAMA CREADA SE DEBE DE HACER DESDE LA RAMA PRICIPAL PARA LLAMAR A LAS CREADA
+
+Se realiza el merge de la rama clase 15 y clase 16
+
+Comandos para corrección en GitHub 
+
+* git checkout “codigo de version” “nombre del archivo”: volver a la última versión de la que se ha hecho commit.
+* git reset: vuelve al pasado sin posibilidad de volver al futuro, se debe usar con especificaciones.
+* git reset --soft: vuelve a la versión en el repositorio, pero guarda los cambios en staging. Así,     podemos aplicar actualizaciones a un nuevo commit.
+* git reset --hard: todo vuelve a su versión anterior
+* git reset HEAD: saca los cambios de staging, pero no los borra. Es lo opuesto a git add.
+* git rm: elimina los archivos, pero no su historial. Si queremos recuperar algo, solo hay que regresar. se utiliza así:
+* git rm --cached elimina los archivos en staging pero los mantiene en el disco duro.
+* git rm --force elimina los archivos de git y del disco duro.
+Comandos para revisión y comparación en GitHub
+* git status: estado de archivos en el repositorio.
+* git log: historia entera del archivo.
+* git log --stat: cambios específicos en el archivo a partir de un commit.
+* git show: cambios históricos y específicos hechos en un archivo.
+* git diff “codigo de version 1” “codigo de version 2”: comparar cambios entre versiones.
+* git diff: comparar directorio con staging.
+
+Se repsa en el conetenido varios comandos para la revision en Github
+
+
+
+CLASE 17
+
+Resolución de conflictos al hacer un merge
+
+Se realiza un merge desde la rama clase16 con la clase 17 para hacer el conflito con los archivos de html y Css
+
+Cómo revertir un merge
+Si nos hemos equivocado y queremos cancelar el merge, debemos usar el siguiente comando:
+get merge 
+Conflictos en repositorios remotos
+Al trabajar con otras personas, es necesario utilizar un repositorio remoto.
+­
+-Para copiar el repositorio remoto al directorio de trabajo local, se utiliza el comando git clone <url>, y para enviar cambios al repositorio remoto se utiliza git push.
+-Para actualizar el repositorio local se hace uso del comando git fetch, luego se debe fusionar los datos traídos con los locales usando git merge.
+
+Para traer los datos y fusionarlos a la vez, en un solo comando, se usa git pull.
+­- Para crear commits rápidamente, fusionando git add y git commit -m "", usamos git commit -am "".
+­- Para generar nuevas ramas, hay que posicionarse sobre la rama que se desea copiar y utilizar el comando git branch <nombre>.
+Para saltar entre ramas, se usa el comando git checkout <branch>
+­- Una vez realizado los cambios en la rama, estas deben fusionarse con git merge.
+El merge ocurre en la rama en la que se está posicionado. Por lo tanto, la rama a fusionar se transforma en la principal.
+Los merges también son commits.
+Los merges pueden generar conflictos, esto aborta la acción y pide que soluciones el problema manualmente, aceptando o rechazando los cambios que vienen.
+image.png 
+
+CLASE 18 
+Cambios en GitHub: de master a main
+
+Se da una breve explicacion de los cambios de las rama master y main  desde el 1 de octubre del 2020 cambio de la rama pricipal ya no es master si como main que fue derivado de las protestas de #BlackLivesMAtter  la rama master va hacer main siempre.
+
+CLASE 19 
+Uso de Github 
+
+Se realizo la alta de cuenta del repositorio para el curso del mismo se dio de alta los archivos necesarios de todos las clases si requiere  se vieron varios comandos para hacerlo con github para hacer un reporsitrio son los siguientes: 
+
+* git remote add origin url : el origin del repo de github 
+* git remote / git remote -v : se verifica la url se haya guarda adecudamente 
+
+Se cambio de la rama master a rama main  
+
+se fue a la rama master se ejecuta git branch -M main
+
+CLASE 20 
+Cómo funcionan las llaves públicas y privadas
+
+Se conoce como cifrado asimetrico, se puede hacer una llave publica y privada, estan vinculada.
+
+Podemos compartir las llaves ya sea privada o publca 
+
+Podemos mandar una llave publica para con un mensaje privado.
+
+El mensaje está cifrado y puede ser enviado a la otra persona sin problemas en caso de que los archivos sean interceptados
+ 
+La persona a la que enviamos el mensaje cifrado puede emplear su llave privada para descifrar el mensaje y ver los archivos 
