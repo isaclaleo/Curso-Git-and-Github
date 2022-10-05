@@ -24,6 +24,10 @@ CLASE 3
 
 Instalando Git y GitBash en Window
 
+CLASE 4 
+
+Instalando Git en OSX
+
 
 Se realizao la history y los comandos de git para realizar la siguiente clase desde la 8 en andelante hasta las 12- en adelante esta con la explicacion de carpetas.
 
