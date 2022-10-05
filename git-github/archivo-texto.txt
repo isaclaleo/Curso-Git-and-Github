@@ -74,3 +74,31 @@ Comandos para revisión y comparación en GitHub
 * git diff: comparar directorio con staging.
 
 Se repsa en el conetenido varios comandos para la revision en Github
+
+
+
+CLASE 17
+
+Resolución de conflictos al hacer un merge
+
+Se realiza un merge desde la rama clase16 con la clase 17 para hacer el conflito con los archivos de html y Css
+
+Cómo revertir un merge
+Si nos hemos equivocado y queremos cancelar el merge, debemos usar el siguiente comando:
+get merge 
+Conflictos en repositorios remotos
+Al trabajar con otras personas, es necesario utilizar un repositorio remoto.
+­
+-Para copiar el repositorio remoto al directorio de trabajo local, se utiliza el comando git clone <url>, y para enviar cambios al repositorio remoto se utiliza git push.
+-Para actualizar el repositorio local se hace uso del comando git fetch, luego se debe fusionar los datos traídos con los locales usando git merge.
+
+Para traer los datos y fusionarlos a la vez, en un solo comando, se usa git pull.
+­- Para crear commits rápidamente, fusionando git add y git commit -m "", usamos git commit -am "".
+­- Para generar nuevas ramas, hay que posicionarse sobre la rama que se desea copiar y utilizar el comando git branch <nombre>.
+Para saltar entre ramas, se usa el comando git checkout <branch>
+­- Una vez realizado los cambios en la rama, estas deben fusionarse con git merge.
+El merge ocurre en la rama en la que se está posicionado. Por lo tanto, la rama a fusionar se transforma en la principal.
+Los merges también son commits.
+Los merges pueden generar conflictos, esto aborta la acción y pide que soluciones el problema manualmente, aceptando o rechazando los cambios que vienen.
+image.png 
+
