@@ -20,6 +20,9 @@ Por último, si queremos mandar nuestros commits a un servidor remoto, un lugar 
 CLASE 2
 Git es un sistema de control de versiones distribuido, diseñado por Linus Torvalds. Está pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
 
+CLASE 3     
+
+Instalando Git y GitBash en Window
 
 
 Se realizao la history y los comandos de git para realizar la siguiente clase desde la 8 en andelante hasta las 12- en adelante esta con la explicacion de carpetas.
