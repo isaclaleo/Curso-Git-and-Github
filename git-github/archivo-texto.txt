@@ -8,3 +8,16 @@ Se  va empezar  desde la clase 8 ya ser subieron varios los archivos que se real
 
 
 Se realizao la history y los comandos de git para realizar la siguiente clase desde la 8 en andelante hasta las 12- en adelante esta con la explicacion de carpetas.
+
+Calse 13 Git reset  vs git rm 
+git rm Es te comando no ayuda a eliminar archivos de git sin eliminar su historial del sustema de verusones. Esto quiere decir qie si necesitamos recuperar el archivo sol devemos de viajar en el tiempo y recuperar el ultimo commit antes de borrar el archivo 
+
+# git rm no se utiliza nada mas asi  debemos usar una de las flags para indeiarle a git como eliminar los archivos que ya no necesitamos en la ultima version del proyecto:
+* gir rm --cached: elimina los archivos de nuestro repositorio local y del area de staging, pero los mnatinien en el disco duro 
+*git rm --force: elimina los archivos  de git y del disco duro, git siempre guarda todo, por lo general podemos acceder al registro de existencia de los archivo, de modo que podemos recuperarlos si es necesario
+
+# git reset: este comando nos ayuda a volver en el tiempo, pero no como git checkout que nos deja ir, mirar, pasear, y volver, con git reset volvemos al pasado sin posibilidad de volver al futuro, este comando es MUY PELIGROSO y de debemos de emplearlo solo en caso e emergencia.
+Hay dos formas de utilizar git reset: con git reset --hard borrando toda la informacion que tengamos en el area de staging y perdiendo todo para siempre, git --soft mantiene alli los cambios del area de staging para que podamos aplicar nuestros ultimos cambios desde el commit anterior 
+
+* git reset --soft: borramos todo el historial y los registros de git pero guardando los cambios que tengamos en staging podemos aplicar las ultimas actualizaciones a un nuevo commit 
+* git reset --hard: borra todo TODO toda la informacion del commit y del area de staging se borra el historial 
