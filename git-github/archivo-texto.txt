@@ -32,6 +32,64 @@ CLASE 5
 
 Instalando Git en Linux
 
+CLASE 6 
+
+Editores de código, archivos binarios y de texto plano
+
+Git es un sistema de control de versiones distribuido, diseñado por Linus Torvalds. Está pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando estas tienen un gran número de archivos de código fuente.
+
+Conceptos importantes de Git
+Bug: Error en el código
+
+Repository: Donde se almacena todo el proyecto, el cual puede vivir tanto en local como en remoto. El repositorio guarda un historial de versiones y, más importante, de la relación de cada versión con la anterior para que pueda hacerse el árbol de versiones con las diferentes ramas.
+
+Fork: Si en algún momento queremos contribuir al proyecto de otra persona, o si queremos utilizar el proyecto de otro como el punto de partida del nuestro. Esto se conoce como “fork”.
+
+Clone: Una vez se decide hacer un fork , hasta ese momento sólo existe en GitHub. Para poder trabajar en el proyecto, toca clonar el repositorio elegido al computador personal.
+
+Branch: Es una bifurcación del proyecto que se está realizando para anexar una nueva funcionalidad o corregir un bug.
+
+Master: Rama donde se almacena la última versión estable del proyecto que se está realizando. La rama master es la que está en producción en cada momento (o casi) y debería estar libre de bugs. Así, si esta rama está en producción, sirve como referente para hacer nuevas funcionalidades y/o arreglar bugs de última hora.
+
+Commit: consiste en subir cosas a la versión local del repositorio. De esta manera se puede trabajar en la rama de forma local sin tener que modificar ninguna versión en remoto ni tener que tener la última versión remota, cosa muy útil en grandes desarrollos trabajados por varias personas.
+
+Push: Consiste en enviar todo lo que se ha confirmado con un commit al repositorio remoto. Aquí es donde se une nuestro trabajo con el de los demás.
+
+Checkout: Acción de descargarse una rama del repositorio GIT local (sí, GIT tiene su propio repositorio en local para poder ir haciendo commits) o remoto.
+
+Fetch: Actualiza el repositorio local bajando datos del repositorio remoto al repositorio local sin actualizarlo, es decir, se guarda una copia del repositorio remoto en el local.
+
+Merge: La acción de merge es la continuación natural del fetch. El merge permite unir la copia del repositorio remoto con tu repositorio local, mezclando los diferentes códigos.
+
+Pull: Consiste en la unión del fetch y del merge, esto es, recoge la información del repositorio remoto y luego mezcla el trabajo en local con esta.
+
+Diff: Se utiliza para mostrar los cambios entre dos versiones del mismo archivo.
+
+
+
+CLASE 7
+Comandos básicos en la terminal:
+
+pwd: Nos muestra la ruta de carpetas en la que te encuentras ahora mismo.
+mkdir: Nos permite crear carpetas (por ejemplo, mkdir Carpeta-Importante).
+touch: Nos permite crear archivos (por ejemplo, touch archivo.txt).
+rm: Nos permite borrar un archivo o carpeta (por ejemplo, rm archivo.txt). Mucho cuidado con este comando, puedes borrar todo tu disco duro.
+cat: Ver el contenido de un archivo (por ejemplo, cat nombre-archivo.txt).
+ls: Nos permite cambiar ver los archivos de la carpeta donde estamos ahora mismo. Podemos usar uno o más argumentos para ver más información sobre estos archivos (los argumentos pueden ser -- + el nombre del argumento o - + una sola letra o shortcut por cada argumento).
+- ls -a: Mostrar todos los archivos, incluso los ocultos.
+- ls -l: Ver todos los archivos como una lista.
+cd: Nos permite navegar entre carpetas.
+- cd /: Ir a la ruta principal:
+- cd o cd ~: Ir a la ruta de tu usuario
+- cd carpeta/subcarpeta: Navegar a una ruta dentro de la carpeta donde estamos ahora mismo.
+- cd .. (cd + dos puntos): Regresar una carpeta hacia atrás.
+- Si quieres referirte al directorio en el que te encuentras ahora mismo puedes usar cd . (cd + un punto).
+history: Ver los últimos comandos que ejecutamos y un número especial con el que podemos repetir su ejecución.
+! + número: Ejecutar algún comando con el número que nos muestra el comando history (por ejemplo, !72).
+clear: Para limpiar la terminal. También podemos usar los atajos de teclado Ctrl + L o Command + L.
+
+
+
 
 Se realizao la history y los comandos de git para realizar la siguiente clase desde la 8 en andelante hasta las 12- en adelante esta con la explicacion de carpetas.
 
